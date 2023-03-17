@@ -1,0 +1,6 @@
+Replaces:
+testString
+testBoolean
+testInt
+testLong
+testFloat
