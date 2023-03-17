@@ -43,7 +43,7 @@ func main() {
 
 	// Replace the keys with the corresponding values
 	for key, value := range data {
-		replaceKey := fmt.Sprintf("\"%s\"", key)
+		replaceKey := fmt.Sprintf("%s", key)
 		var replaceValue string
 		switch v := value.(type) {
 		case string:
